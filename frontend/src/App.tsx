@@ -42,7 +42,7 @@ function App() {
 
   const fetchPosts=async()=>{
     setLoading(true);
-    const res=await fetch(`https://jsonplaceholder.typicode.com/posts?_page=${page}&_limit=10`);
+    const res=await fetch(`http://jsonplaceholder.typicode.com/posts?_page=${page}&_limit=10`);
     const data=await res.json();
     
     setPosts((prev)=>[...prev,...data]);
