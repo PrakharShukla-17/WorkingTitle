@@ -1,13 +1,13 @@
-
 import './App.css'
-
+import Signup from './components/Signup'
 function App() {
  
 
   return (
     <>
-      <h2>we in frontend</h2>
+      <Signup></Signup>
     </>
+
   )
 }
 
