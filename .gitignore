@@ -1,3 +1,4 @@
+ HEAD
 # Logs
 logs
 *.log
@@ -27,3 +28,6 @@ dist-ssr
 .env
 .env.*
 !.env.example
+
+frontend/.env
+ bb420af (Remove env file from version control)
