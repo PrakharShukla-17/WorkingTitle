@@ -8,7 +8,11 @@
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,
 
+
     "allowJs": true, /* to allow the read of js files for now*/
+
+
+    
 
     /* Bundler mode */
     "moduleResolution": "bundler",
